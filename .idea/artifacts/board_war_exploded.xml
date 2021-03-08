@@ -14,6 +14,14 @@
           <element id="module-output" name="board" />
         </element>
         <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.10.2" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.11.4" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.11.4" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-dbcp2:2.7.0" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-pool2:2.9.0" />
+          <element id="library" level="project" name="Maven: org.mybatis:mybatis:3.5.3" />
+          <element id="library" level="project" name="Maven: org.mybatis:mybatis-spring:2.0.3" />
+          <element id="library" level="project" name="Maven: com.oracle:ojdbc7:12.1.0.2" />
           <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
           <element id="library" level="project" name="Maven: org.apache.tomcat.embed:tomcat-embed-jasper:9.0.43" />
           <element id="library" level="project" name="Maven: org.apache.tomcat.embed:tomcat-embed-core:9.0.43" />
@@ -32,9 +40,6 @@
           <element id="library" level="project" name="Maven: org.slf4j:jul-to-slf4j:1.7.30" />
           <element id="library" level="project" name="Maven: org.yaml:snakeyaml:1.27" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-json:2.4.3" />
-          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.11.4" />
-          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.11.4" />
-          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.11.4" />
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.11.4" />
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.11.4" />
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.module:jackson-module-parameter-names:2.11.4" />

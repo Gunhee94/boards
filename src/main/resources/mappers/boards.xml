@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- 매퍼인터페이스의 전체이름이 들어가야함 필수임!!!  -->
+<mapper namespace="kr.co.board.dao.BoardDao">
+
+    <select id="getBoardByNo" parameterType="int" resultType="Board">
+        SELECT BD_NO            as bdNo
+             , CATE_NO          as cateNo
+             , BD_TITLE         as bdTitle
+             , BD_DESCRIPTION   as bdDescription
+             , BD_IMAGE         as bdImage
+             , BD_DATE          as bdDate
+             , USER_ID          as userId
+             , BD_LIKE          as bdLike
+        FROM BOARDS
+    </select>
+
+
+</mapper>
